@@ -7,10 +7,10 @@ request = require('request')
 app.set('appName','design-serempre');
 app.set('port',8080)
 
-app.use(express.static('./dist/design-serempre'));
+app.use(express.static('dist/design-serempre'));
 
 
-app.get('/*', function(req, res) {
+app.get('/', function(req, res) {
   res.sendFile('index.html', {root: 'dist/design-serempre/'}
 );
 });
