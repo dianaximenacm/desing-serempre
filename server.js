@@ -1,3 +1,5 @@
+  
+const { Console } = require('console');
 
 const express = require('express');
 const { response } = require('express');
@@ -5,9 +7,11 @@ app = express();
 request = require('request')
 
 app.set('appName','design-serempre');
-app.set('port',8080)
+app.set('port',3000)
 
-app.use(express.static('dist/design-serempre'));
+    path = require('path'); 
+
+app.use(express.static(path.join(__dirname, "dist/design-serempre/")));
 
 
 app.get('/', function(req, res) {
@@ -16,6 +20,6 @@ app.get('/', function(req, res) {
 });
 
 
-app.listen(process.env.PORT || 8080, () =>{
+app.listen(process.env.PORT || 3000, () =>{
     console.log('I´m working right! Yeah')
 });
