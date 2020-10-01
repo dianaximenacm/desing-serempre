@@ -11,7 +11,7 @@ app.set('port',3000)
 
     path = require('path'); 
 
-app.use(express.static(path.join(__dirname, "dist/design-serempre/")));
+app.use(express.static(path.join("dist/design-serempre/")));
 
 
 app.get('/', function(req, res) {
