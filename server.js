@@ -1,11 +1,14 @@
-// server.js
+
 const express = require('express');
-const app = express();
-// Run the app by serving the static files
-// in the dist directory
+const { response } = require('express');
+app = express();
+request = require('request')
+
+app.set('appName','design-serempre');
+app.set('port',8080)
+
 app.use(express.static('./dist/design-serempre'));
-// Start the app by listening on the default
-// Heroku port
+
 
 app.get('/*', function(req, res) {
   res.sendFile('index.html', {root: 'dist/design-serempre/'}
