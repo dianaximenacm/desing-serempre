@@ -9,12 +9,12 @@ request = require('request')
 app.set('appName','design-serempre');
 app.set('port',3000)
 
-    path = require('path'); 
+const path = require('path'); 
 
 app.use(express.static(path.join("dist/design-serempre/")));
 
 
-app.get('/', function(req, res) {
+app.get('*', function(req, res) {
   res.sendFile('index.html', {root: 'dist/design-serempre/'}
 );
 });
