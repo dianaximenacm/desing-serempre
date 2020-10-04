@@ -6,7 +6,7 @@
 
 # Teniendo como referente : 
 
-![Captura de pantalla](preview@1x.jpg)
+![Captura de pantalla](https://github.com/dianaximenacm/design-serempre/blob/master/src/assets/font/front-end-interview-master/preview%401x.jpg)
 
 Link del diseño 👉 https://www.sketch.com/s/7f553820-d3b7-443c-86d7-f19bea8dcb89
 
@@ -24,6 +24,7 @@ Link del diseño 👉 https://www.sketch.com/s/7f553820-d3b7-443c-86d7-f19bea8dc
 * Excelentes prácticas
 * Metodologías semánticas y técnicas
 * DRY y KISS
+* Uso de TypeScript
 * Conocimiento de algún framework de JS
 * SEO
 * Desempeño
@@ -49,13 +50,12 @@ Visualiza este proyecto en [Heroku](https://desing-serempre.herokuapp.com/).
 
 * Escribir test de los componentes
 * Resolver problemas desde un enfoque UX / UI
-* Uso de TypeScript -->
 * Agregar animaciones
 * Incluir un loading
 * Integrar con una plataforma de Back-end 
 * Hazla interactiva. Los usuarios podrán seleccionar entre las diferentes imágenes y ver la previsualización en tiempo real, también podrán explorar las diferentes características (Overview, features, etc..) del producto por medio unas tabs, y el precio total debe mostrar la configuración seleccionada por el usuario en el total ubicado en el footer.
 * Haz tu solución accesible. Sigue los mejores estándares de accesibilidad, incluyendo navegación por medio del teclado. 
-* Uso de últimas tecnologías (ES6+, PostCss, Sass, Webpack, etc.) -->
+* Uso de últimas tecnologías (ES6+, PostCss, Sass, Webpack, etc.)
 
 
 
