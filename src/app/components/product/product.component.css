@@ -146,9 +146,7 @@ li{
   padding: 2rem;
   border: none;
   display: grid;
-  grid-template: auto / 668px  auto ;
-  margin-left:7rem;
-
+  grid-template: auto / auto auto ;
 }
 
 .product-category , .product-price-line{
