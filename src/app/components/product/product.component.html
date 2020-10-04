@@ -1,67 +1,187 @@
-<!-- PRODUCT -->
-
+<!-- 2. LAYOUT -->
 
 <div class="product-card">
-    <p class="product-category">New release</p>
-    <h2 class="product-title">MOMENTUM True Wireless 2</h2>
-    <p class="product-subtitle">Earbuds that put sound first</p>
-    <p class="product-price-line">Starting at</p>
-    <p class="product-price">$295.95</p>
-    <div class="card-buttons">
-      <nav class="navbar-menu">
-        <ul class="nav">
-          <li class="nav-item">
-            <a href="#" class="nav-link">Overview</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link">Features</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link">What's in the box?</a>
-          </li>
-        </ul>
-      </nav>
-    </div>
-    <p class="product-description">For the past 75 years, Sennheiser has put sound first. The new MOMENTUM True Wireless 2 is no different. Thanks to leading audio technology and innovation, these new earbuds deliver the best listening experience anytime, anywhere. With improved ergonomics designed for full day wearing and refined touch controls for a more personalised experience, they have been finely crafted for the most discerning listener and aim to simplify your life by enhancing your everyday.</p>
-   
-    
-    <div class="product-image">
+  <div class="product-image">
     <div class="container-slider">
       <ul class="slider">
         <li class="slider-list" id="slide1">
-          <img class="img-slider" src="https://raw.githubusercontent.com/supahfunk/supah-codepen/master/canyon-1.jpg" alt="">
+          <img class="img-slider" src="https://images.crutchfieldonline.com/products/2020/11/143/g143MTNTW2B-F.jpg" alt="">
         </li>
         <li class="slider-list" id="slide2">
-        <img class="img-slider" src="https://raw.githubusercontent.com/supahfunk/supah-codepen/master/canyon-4.jpg" alt="">
+        <img class="img-slider" src="https://content.abt.com/media/images/products/BDP_Images/big-MOMENTUM-TRUEWIRELESS2.jpg" alt="">
         </li>
         <li class="slider-list" id="slide3">
-          <img class="img-slider" src="https://raw.githubusercontent.com/supahfunk/supah-codepen/master/canyon-3.jpg" alt="">
+          <img class="img-slider" src="https://i0.wp.com/www.hifi.blog/wp-content/uploads/2020/09/Sennheiser-MOMENTUM-True-Wireless-2-Anniversary-Edition-08.jpg?ssl=1" alt="">
         </li>
       </ul>
      
     </div> 
     <div>
-    <div class="product-sizes">
+    <div class="product-thumb-image">
       <ul class="slideproduct">
-        <li class="slideproduct-list"  style="margin-left:0rem">
+        <li class="slideproduct-list"  style="margin-left:0rem,">
           <a class="slideproduct-link" href="#slide1">
-            <img class="img-slideproduct" src="https://raw.githubusercontent.com/supahfunk/supah-codepen/master/canyon-1.jpg" alt="">
+            <img class="img-slideproduct" src="https://images.crutchfieldonline.com/products/2020/11/143/g143MTNTW2B-F.jpg" alt="">
           </a>
         </li>
         <li class="slideproduct-list">
           <a class="slideproduct-link" href="#slide2">
-            <img class="img-slideproduct" src="https://raw.githubusercontent.com/supahfunk/supah-codepen/master/canyon-4.jpg" alt="">
+            <img class="img-slideproduct" src="https://content.abt.com/media/images/products/BDP_Images/big-MOMENTUM-TRUEWIRELESS2.jpg" alt="">
           </a>
         </li>
         <li class="slideproduct-list">
           <a class="slideproduct-link" class="slideproduct-list" href="#slide3">
-            <img class="img-slideproduct" src="https://raw.githubusercontent.com/supahfunk/supah-codepen/master/canyon-3.jpg" alt="">
+            <img class="img-slideproduct" src="https://i0.wp.com/www.hifi.blog/wp-content/uploads/2020/09/Sennheiser-MOMENTUM-True-Wireless-2-Anniversary-Edition-08.jpg?ssl=1" alt="">
           </a>
         </li>
       </ul>
     </div>
+    <div class="product-thumb-image">
+      <span *ngFor= "let img of imagen" >
+        <img [src]="img" class="img-slider" style="width: 100%;"/>
+    </span>
+    </div>
+
   </div>
     </div>
+  <p class="product-category">New release</p>
+  <h2 class="product-title">MOMENTUM True Wireless 2</h2>
+  <p class="product-subtitle">Earbuds that put sound first</p>
+  <p class="product-price-line">Starting at</p>
+  <p class="product-price-main">$295.95</p>
+  <div class="card-menu">
+    <nav class="navbar-menu">
+      <ul class="nav">
+        <li class="nav-item">
+          <a href="#" class="nav-link">Overview</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">Features</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">What's in the box?</a>
+        </li>
+
+      </ul>
+    </nav>
   </div>
+  <p class="product-description">For the past 75 years, Sennheiser has put sound first. The new MOMENTUM True Wireless 2 is no different. Thanks to leading audio technology and innovation, these new earbuds deliver the best listening experience anytime, anywhere. With improved ergonomics designed for full day wearing and refined touch controls for a more personalised experience, they have been finely crafted for the most discerning listener and aim to simplify your life by enhancing your everyday.</p>
+  
+  <div class="product-card-details">
+
+    <div id="product-choice">
+      <p class="product-main-title">Choose your finish.</p>
+      <ul class="ul-choice">
+        <li class="li-choice">
+          <a href="#" class="product-title">Ivory White</a>
+        <p class="product-text">For the past 75 years, Sennheiser has
+           put sound first. The new MOMENTUM True. </p>
+        </li>
+
+        <li class="li-choice">
+          <a href="#" class="product-title">Matte Black</a>
+          <p class="product-text">Of all of the celestial bodies that capture our attention and fascination as astronomers.</p>
+        </li>
+      </ul>
+    </div >
+
+    <div id="warranty-product">
+      <p class="product-main-title">Would you like to add extended warranty coverage?.</p>
+      <ul class="ul-warranty-product">
+        <li class="li-warranty-product">
+          <a href="#" class="product-title">2 years coverage</a>
+        <p class="product-text">For the past 75 years, Sennheiser has put sound first.</p>
+        </li>
+
+        <li class="li-warranty-product">
+          <a href="#" class="product-title">3 years coverage</a>
+          <p class="product-price" >+ $75</p>
+          <p class="product-text">For the past 75 years, Sennheiser has put sound first</p>
+        </li>
+      </ul>
+    </div >
+
+
+    <div id="features-product" >
+      <p class="product-main-title">Features.</p>
+        <ul class="ul-features-product" >
+          <li class="li-features-product" >
+          <p class="product-text">Voice Assistant support </p>
+          </li>
+
+          <li class="li-features-product" >
+           
+            <p class="product-text">Customizable controls. <p class="product-price" >+ $25</p>
+            
+          </li>
+        </ul>
+      </div>
+
+
+      <div id="Specifications-product">
+        <p class="product-main-title">Specifications.</p>
+        <ul class="ul-Specifications-product">
+          
+          <li class="li-Specifications-product">
+            <a href="#" class="product-title">Dimensions</a>
+            <p class="product-Specifications" >76.8 x 43.8 x 34.7 mm (earbuds and charging case)</p>
+
+          </li>
+          <li class="li-Specifications-product">
+            <a href="#" class="product-title">USB Standard</a>
+            <p class="product-Specifications" >USB-C</p>
+
+          </li>
+          <li class="li-Specifications-product">
+            <a href="#" class="product-title">Power supply</a>
+            <p class="product-Specifications" >Sennheiser 7mm dynamic driver</p>
+
+          </li>
+          <li class="li-Specifications-product">
+            <a href="#" class="product-title">Frequency response (Microphone)</a>
+            <p class="product-Specifications" >100 Hz to 10 kHz</p>
+
+          </li>
+
+          <li class="li-Specifications-product">
+            <a href="#" class="product-title">Frequency response</a>
+            <p class="product-Specifications" >5 - 21,000 Hz</p>
+
+          </li>
+          <li class="li-Specifications-product li-Specifications-product-last ">
+            <a href="#" class="product-title">Noise cancellation</a>
+            <p class="product-Specifications" >Single-Mic ANC per earbud side</p>
+
+          </li>
+        </ul>
+        </div> 
+  </div>
+
+</div>
+<div class="product-card-footer">                
+<div id="product-footer">
+<ul class="ul-product-footer">
+<li class="li-product-footer">
+<a href="#" class="product-title">Free Shipping</a>
+<p class="product-footer-text">Get 2-day free shipping anywhere in North America. </p>
+</li>
+
+<li class="li-product-footer">
+<a href="#" class="product-title">2 years warranty</a>
+<p class="product-footer-text">If anything goes wrong in the first two years, we'll replace it for free.</p>
+</li>
+
+
+<li class="li-product-footer">
+<a href="#" class="product-title">$295.95</a>
+<p class="product-footer-text">Need financing? Learn more </p>
+</li>
+
+<li class="li-product-footer">
+<button class="button">Buy now</button>
+</li>
+
+</ul>
+</div >
 
 
