@@ -1,4 +1,4 @@
-# Prueba Front End para Serempre
+# Product Card para Serempre
 
 ### El diseño fue realizado en  🧩
 
@@ -37,7 +37,7 @@ Link del diseño 👉 https://www.sketch.com/s/7f553820-d3b7-443c-86d7-f19bea8dc
 
 ### Retos del projecto 🚀
 * No uso de Root en css : como Angular no resive este tipo de carateres fue necesario hacerlo a pedal :) 
-* Priorización: elegir incluir algunos elementos sobre otros para hacer un dideño lo mas cercano al propuesto. 
+* Priorización: elegir incluir algunos elementos sobre otros para hacer un diseño lo mas cercano al propuesto. 
 * Deployment: Debido a algunas actualizacion de Angular tuve que investigar como hacerlo de la nueva manera, implemtando un codigo distinto al conocido en las conexiones. 
 
  
